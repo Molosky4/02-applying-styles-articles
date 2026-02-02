@@ -1,0 +1,120 @@
+/* Set background color, text color, and font for the whole page */
+body {
+  background-color: #f8f9fa;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+header {
+  background: #fff;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Main title style */
+h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Center the main content and set max width */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Featured article styles */
+#featured-article article {
+  background: #e3eaf2;
+  border: 2px solid #b6c6db;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Featured article heading */
+#featured-article h2 {
+  margin-top: 0;
+  color: #2a4d7c;
+}
+
+/* Regular articles styles */
+#articles article {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Regular article heading */
+#articles h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Metadata list styles */
+.metadata {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+  display: flex; /* Show items in a row */
+  gap: 1.2rem;   /* Space between items */
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Paragraph spacing and line height */
+p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+}
+
+/* Link styles */
+a {
+  color: #2a4d7c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background: #f1f3f6;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* More articles section */
+#more-articles {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* More articles heading */
+#more-articles h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* More articles list styles */
+#more-articles ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#more-articles li {
+  margin-bottom: 0.5rem;
+}
